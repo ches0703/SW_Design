@@ -489,6 +489,6 @@ class GUIManager():
 
 if __name__ == "__main__":
     window = Tk()
-    window.title("Test")
+    window.title("EcelBasedUserManager")
     app = GUIManager(window)
     window.mainloop()
