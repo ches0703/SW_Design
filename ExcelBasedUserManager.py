@@ -72,7 +72,6 @@ class UserListManager:
     def deleteUser(self, index):
         self.__user_list = self.__user_list.drop(index)
         self.__user_list = self.__user_list.reset_index(drop=True)
-        print(self.__user_list)
         
 
     def addUser(self, data:dict):
